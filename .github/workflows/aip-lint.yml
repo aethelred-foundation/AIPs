@@ -5,6 +5,9 @@ on:
     paths:
       - "AIPs/AIP-*.md"
 
+permissions:
+  contents: read
+
 jobs:
   lint-frontmatter:
     name: Validate AIP frontmatter
